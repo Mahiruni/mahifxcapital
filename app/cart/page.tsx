@@ -1,0 +1,2 @@
+import Link from 'next/link'
+export default function Cart(){return <main><section className="page-hero"><div className="container"><h1>Your cart</h1><p>Review your selected learning products before checkout.</p></div></section><div className="container section"><div className="quote" style={{maxWidth:760}}><h2>Your cart is empty</h2><p>Add a course from the catalog to see it here.</p><Link href="/courses" className="btn gold" style={{display:'inline-block'}}>Browse courses</Link></div></div></main>}
