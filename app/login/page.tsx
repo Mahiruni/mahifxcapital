@@ -1,0 +1,2 @@
+import Link from 'next/link'
+export default function Login(){return <main><div className="form-page"><span className="eyebrow">MAHIFXCAPITAL</span><h1>Welcome back</h1><form><input type="email" placeholder="Email address"/><input type="password" placeholder="Password"/><button>Log in</button></form><p style={{textAlign:'center'}}><Link href="/forgot-password">Forgot password?</Link> · <Link href="/signup">Create account</Link></p></div></main>}
