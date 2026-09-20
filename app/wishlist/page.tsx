@@ -1,0 +1,2 @@
+import Link from 'next/link'
+export default function Wishlist(){return <main><section className="page-hero"><div className="container"><h1>Wishlist</h1><p>Save courses you want to study later.</p></div></section><div className="container section"><div className="quote"><h2>Your wishlist is empty</h2><p>Save a course from its course page and it will appear here.</p><Link href="/courses" className="btn gold" style={{display:'inline-block'}}>Explore courses</Link></div></div></main>}
