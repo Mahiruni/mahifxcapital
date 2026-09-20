@@ -1,0 +1,1 @@
+export default function Forgot(){return <main><div className="form-page"><h1>Reset your password</h1><p style={{textAlign:'center',color:'#667085'}}>Enter your email and we’ll send password reset instructions.</p><form><input type="email" placeholder="Email address"/><button>Send reset link</button></form></div></main>}
