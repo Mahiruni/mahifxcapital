@@ -1,0 +1,2 @@
+import Link from 'next/link'
+export default function Signup(){return <main><div className="form-page"><span className="eyebrow">START LEARNING</span><h1>Create your account</h1><form><input placeholder="Full name"/><input type="email" placeholder="Email address"/><input type="password" placeholder="Password"/><button>Create account</button></form><p style={{textAlign:'center'}}>Already have an account? <Link href="/login">Log in</Link></p></div></main>}
